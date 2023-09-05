@@ -1,0 +1,180 @@
+html {
+    background-color: #1b1b32;
+}
+
+h1, p, label {
+    color: white;
+    font-family: Tahoma;
+}
+
+header {
+    text-align: center;
+    padding: 17px;
+}
+
+header p {
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.readonly {
+    resize: none;
+}
+
+textarea {
+    border-radius: 10px;
+}
+
+main {
+    width: 500px;
+    border: 1px solid white;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#pwd-output {
+    display: block;
+    margin: 15px auto;
+    width: 65%;
+    font-size: 2rem;
+    padding-bottom: 0;
+}
+
+.num-input {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+    padding-bottom: 2%;
+}
+
+.num-input label {
+    padding-right: 10px;
+}
+
+#num-chars {
+    width: 15%;
+}
+
+.checkbox-container {
+    width: 70%;
+    padding: 20px;
+    padding-left: 85px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+#submit {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    color: white;
+}
+
+
+
+#anim-bg {
+    background-color: #3b3b4f;
+    width: 60%;
+    height: 3em;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.star {
+    font-size: 80px;
+    padding: 1.5px;
+    margin-top: -9px;
+    color: white;
+}
+
+#star1 {
+    animation: 2s step-end infinite typing1;
+}
+
+#star2 {
+    animation: 2s step-end infinite typing2;
+}
+
+#star3 {
+    animation: 2s step-end infinite typing3;
+}
+
+#star4 {
+    animation: 2s step-end infinite typing4;
+}
+
+#star5 {
+    animation: 2s step-end infinite typing5;
+}
+
+#star6 {
+    animation: 2s step-end infinite typing6;
+}
+
+#star7 {
+    animation: 2s step-end infinite typing7;
+}
+
+@keyframes typing1 {
+    0% {
+        opacity: 0%;
+    }
+    20% {
+        opacity: 100%
+    }
+}
+@keyframes typing2 {
+    0% {
+        opacity: 0%;
+    }
+    30% {
+        opacity: 100%
+    }
+}
+@keyframes typing3 {
+    0% {
+        opacity: 0%;
+    }
+    55% {
+        opacity: 100%
+    }
+}
+@keyframes typing4 {
+    0% {
+        opacity: 0%;
+    }
+    57% {
+        opacity: 100%
+    }
+}
+@keyframes typing5 {
+    0% {
+        opacity: 0%;
+    }
+    69% {
+        opacity: 100%
+    }
+}
+@keyframes typing6 {
+    0% {
+        opacity: 0%;
+    }
+    73% {
+        opacity: 100%
+    }
+}
+@keyframes typing7 {
+    0% {
+        opacity: 0%;
+    }
+    80% {
+        opacity: 100%
+    }
+}
